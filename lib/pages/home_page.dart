@@ -110,7 +110,7 @@ class _HomePageState extends State<HomePage> {
                                   fontSize: 16.0,
                                   decoration: ToDo.isDone
                                       ? TextDecoration.lineThrough
-                                      : null,
+                                      : TextDecoration.none
                                 ),
                               ),
                               InkWell(

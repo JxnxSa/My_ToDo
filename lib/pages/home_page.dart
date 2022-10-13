@@ -44,7 +44,7 @@ class _HomePageState extends State<HomePage> {
   void _addToDoItem(String toDo) {
     setState(() {
       todoList.add(ToDo(
-        id: DateTime.now().millisecondsSinceEpoch.toString(),
+        id: (todoList.length+1).toString(),
         todoText: toDo,
       ));
     });
